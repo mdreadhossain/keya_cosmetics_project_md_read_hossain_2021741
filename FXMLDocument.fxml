@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="816.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="security.control.officer.ms3.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="757.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" />
+      <Text layoutX="735.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O" />
+      <Text layoutX="717.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--" />
+      <Text layoutX="291.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="security control apps">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File   Edit   Help">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TableView layoutX="14.0" layoutY="120.0" prefHeight="442.0" prefWidth="241.0">
+        <columns>
+          <TableColumn prefWidth="113.0" text="First Name" />
+          <TableColumn minWidth="3.0" prefWidth="127.0" text="Last Name" />
+        </columns>
+      </TableView>
+      <Line endX="701.0" layoutX="115.0" layoutY="113.0" startX="-100.0" />
+      <Text layoutX="277.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Person Details:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="277.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="277.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:" />
+      <Text layoutX="277.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:" />
+      <Text layoutX="277.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Street:" />
+      <Text layoutX="277.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City:" />
+      <Text layoutX="277.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Postal Code:" />
+      <Text layoutX="277.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday:" />
+      <Label layoutX="476.0" layoutY="181.0" text="Label" />
+      <Label layoutX="476.0" layoutY="222.0" text="Label" />
+      <Label layoutX="476.0" layoutY="266.0" text="Label" />
+      <Label layoutX="476.0" layoutY="310.0" text="Label" />
+      <Label layoutX="476.0" layoutY="360.0" text="Label" />
+      <Label layoutX="476.0" layoutY="409.0" text="Label" />
+      <Label layoutX="592.0" layoutY="527.0" text="New" />
+      <Label layoutX="648.0" layoutY="527.0" text="Edit" />
+      <Label layoutX="700.0" layoutY="527.0" text="Delete" />
+      <Label layoutX="24.0" layoutY="42.0" text="Label" />
+    </children>
+</AnchorPane>
